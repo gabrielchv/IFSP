@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */  
+
+body{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+h1{
+    color: #007e7e;
+    size: 150%;
+}
+h2{
+    color: #007e7e;
+    size: 130%;
+}
+.garantia{
+    border-width: 1px;
+    border-color: white;
+    border-style: dashed;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+}
+.garantia img{
+    float: left;
+}
+.garantia p{
+    line-height: 1.9em;
+    font-style: italic;
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    color: #444444;
+}

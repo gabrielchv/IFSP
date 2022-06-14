@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://vendas-chaves.atwebpages.com/sitemap.xml

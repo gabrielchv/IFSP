@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <h1>Formulário Completo ❤</h1>
+    </header>
+    <article>
+        <form action="recebe-formulario.php" method="post">
+            <section>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome aqui" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Seu email" required><br>
+                <label for="phone">Telefone:</label>
+                <input type="number" name="phone" id="phone" placeholder="Seu telefone" required><br>
+                <label for="website">Site:</label>
+                <input type="url" name="website" id="website" placeholder="Seu site" required><br>
+                <label for="birthday">Nascimento:</label>
+                <input type="date" name="birthday" id="birthday" placeholder="dd/mm/aaaa" required><br>
+                <label for="son">Quantidade de filhos:</label>
+                <input type="number" name="son" id="son" min="0" max="30" required><br>
+                <label for="temp">Temperatura hoje:</label>
+                <input type="number" name="temp" id="temp" min="-10" max="50" step="0.1" required><br>
+                <label for="time">Hora local:</label>
+                <input type="time" name="time" id="time" placeholder="--:--" required><br>
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" placeholder="Sua senha" required><br>
+            </section>
+            <br>
+            <section>
+                <b>Qual disciplina você mais gosta?</b><br>
+                <input type="radio" name="lc" id="lc" required>
+                <label for="lc">Lógica Computacional</label><br>
+                <input type="radio" name="lc" id="dweb" required>
+                <label for="dweb">Desenvolvimento Web</label><br>
+            </section>
+            <br>
+            <section>
+                <label for="color">Cor preferida:</label>
+                <input type="color" name="color" id="color">
+            </section>
+            <br>
+            <section>
+                <label for="msg">Mensagem</label><br>
+                <textarea name="msg" id="msg" cols="60" rows="10" placeholder="Digite sua mensagem" required></textarea><br>
+                <label for="recOurEmail">Deixe a caixa marcada para receber nossos e-mails</label>
+                <input type="checkbox" name="recOurEmail" id="recOurEmail"><br>
+                <label for="recPtEmail">Deseja receber e-mails dos nossos parceiros?</label>
+                <input type="checkbox" name="recPtEmail" id="recPtEmail"><br>
+            </section>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </article>
+</body>
+</html>

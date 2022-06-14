@@ -1,0 +1,45 @@
+/* index */
+.equipe-usadas-chaves-img{
+    margin: 2rem 0;
+}
+
+/* comprar */
+.nome-roupa{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.tamanho{
+    font-weight: bold;
+}
+
+/* geral */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+footer{
+    margin-top: 2rem;
+}
+.navbar h1{
+    font-family: 'Montserrat', sans-serif; font-size: 3rem; line-height: 1; font-weight: 900;
+}
+.navbar a{
+    font-family: 'Ubuntu', sans-serif; font-size: 1.5rem; font-weight: 100;
+}
+header{
+    margin: 2rem 0;
+}
+
+/* Adaptar para cada tamanho */
+@media(max-width:575px){}
+@media(max-width:767px){}
+@media(max-width:991px){
+    .navbar h1{
+        font-size: 1.6rem;
+    }
+    .contato-h2{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+@media(max-width:1199px){}

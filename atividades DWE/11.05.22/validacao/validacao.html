@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="recebe-validacao" method="post">
+        <header>
+            <fieldset>
+                <select name="dias" id="dias">
+                    <optgroup label="dias uteis">
+                        <option value="seg">segunda</option>
+                        <option value="ter" selected>terça</option>
+                        <option value="qua">quarta</option>
+                        <option value="qui">quinta</option>
+                        <option value="sex">sexta</option>
+                    </optgroup>
+                    <optgroup label="fim de semana">
+                        <option value="sab">sábado</option>
+                        <option value="dom">domingo</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+        </header>
+
+        <article>
+            <label for="carro">Escolha seu carro:</label>
+            <input list="carros" name="carro" id="carro">
+            <label for="carroAmg">Escolha o carro do seu amigo:</label>
+            <input list="carros" name="carroAmg" id="carroAmg">
+            <datalist id="carros">
+                <option value="mercedez">
+                <option value="fiat">
+                <option value="palio">
+                <option value="uno">
+            </datalist>
+        </article>
+        <article>
+            <input type="button" value="button" disabled>
+            <input type="button" value="button" readonly>
+        </article>
+
+        <article>
+            <input type="text" pattern="[A-Z]{3} [0-9]{4}">
+            <input type="text" pattern="[0-9]{5}-[0-9]{3}">
+        </article>
+
+        <footer>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </footer>
+    </form>
+</body>
+</html>
