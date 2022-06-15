@@ -1,36 +1,35 @@
 /* style sheet for example cafe */
 
 #page {
-    font-family:arial, verdana, sans-serif; 
-    border: 1rem solid rgb(115, 115, 223);
-    padding: 2rem;
+  font-family: arial, verdana, sans-serif;
+  border: 0.6rem solid rgb(115, 115, 223);
+  padding: 2rem;
+  width: 960px;
+}
+
+a {
+  color: #4aa6d2;
+  text-decoration: none;
 }
 
 nav {
-    padding: 0.5rem 0;
-    margin: 1rem 0;
-    border-style: solid;
-    border-width: 2px 0;
-    border-color: rgb(179, 166, 166);
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: rgb(179, 166, 166);
 }
 
 article {
-    color:rgb(83, 82, 82);
+  color: rgb(83, 82, 82);
 }
 
 h1 {
-    font-family: Georgia;
+  font-family: Georgia;
 }
 
 article img {
-    float: left;
-    border: solid 1px black;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-}
-
-@media only screen and (min-width: 1500px) {
-    article {
-        padding-bottom: 5vw;
-    }
+  border: solid 1px black;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
